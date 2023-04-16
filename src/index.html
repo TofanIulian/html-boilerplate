@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 
-<!-- TODO: you might wanna change the language. -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>TODO</title>
-
-    <!-- TODO: Chose CSS starting strategy -->
-    <!-- Complete reset -->
-    <link rel="stylesheet" href="./reset.css" />
+    <title>Iulian Tofan</title>
 
     <!-- Make all browsers behave the same -->
     <link rel="stylesheet" href="./normalize.css" />
-
-    <!-- Or personalise -->
 
     <link rel="stylesheet" href="./style.css" />
 
@@ -28,11 +21,1541 @@
         Keep in mind that animated icons don't work on every browser.
      -->
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono&family=Roboto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <!-- https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
+    <header class="nav-bar">
+      <span class="logo"
+        ><span class="braket">&lt;</span>IT<span class="braket"
+          >&gt;</span
+        ></span
+      >
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#contact">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
     <main>
-      <h1>Welcome to My Website</h1>
+      <section id="home">
+        <div class="section-wrapper">
+          <h1 data-aos="zoom-in" class="name">Iulian Tofan</h1>
+          <h5 data-aos="fade-up" data-aos-delay="500" class="short-description">
+            SOFTWARE ENGINEER, FRONT END DEVELOPER
+          </h5>
+          <h5 data-aos="fade-up" data-aos-delay="500" class="short-description">
+            AKA <span class="highlight"> "Your web guy" </span>
+          </h5>
+        </div>
+      </section>
+
+      <section id="expertise">
+        <div class="section-wrapper">
+          <h2 data-aos="zoom-in" class="title">My Expertise</h2>
+          <div class="skills-container">
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/456199/computer-monitor -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    id="Layer_1"
+                    data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-miterlimit: 10;
+                            stroke-width: 1.2;
+                          }
+                        </style>
+                      </defs>
+                      <line
+                        class="cls-1"
+                        x1="8.18"
+                        y1="22.5"
+                        x2="9.14"
+                        y2="17.73"
+                      ></line>
+                      <line
+                        class="cls-1"
+                        x1="5.32"
+                        y1="22.5"
+                        x2="18.68"
+                        y2="22.5"
+                      ></line>
+                      <rect
+                        class="cls-1"
+                        x="1.5"
+                        y="1.5"
+                        width="21"
+                        height="16.23"
+                        rx="1.91"
+                      ></rect>
+                      <line
+                        class="cls-1"
+                        x1="15.75"
+                        y1="22.5"
+                        x2="14.8"
+                        y2="17.73"
+                      ></line>
+                      <line
+                        class="cls-1"
+                        x1="1.5"
+                        y1="13.91"
+                        x2="22.5"
+                        y2="13.91"
+                      ></line>
+                    </g>
+                  </svg>
+                </div>
+
+                <h3 class="skill-title">Software Development</h3>
+              </div>
+
+              <div class="skill-description">
+                <p>
+                  Deep understanding of
+                  <span class="highlight">web concepts</span> and the
+                  <span class="highlight">JavaScript</span>
+                  Ecosystem.
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/313478/angular -->
+                  <svg
+                    fill="#fff"
+                    viewBox="2 2 28 28"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#fff"
+                    stroke-width="0.00032"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M 16 3.9355469 L 4.3613281 8.1679688 L 6.4492188 23.839844 L 16 29.144531 L 25.550781 23.837891 L 27.638672 8.1679688 L 16 3.9355469 z M 16 6.0644531 L 25.443359 9.4980469 L 23.699219 22.578125 L 16 26.855469 L 8.3007812 22.578125 L 6.5566406 9.4980469 L 16 6.0644531 z M 16 8 L 10 22 L 12 22 L 13.289062 19 L 18.710938 19 L 20 22 L 22 22 L 16 8 z M 16 12.550781 L 16.019531 12.609375 L 16.720703 14.359375 L 17.849609 17 L 14.150391 17 L 15.279297 14.359375 L 15.980469 12.609375 L 16 12.550781 z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="skill-title">Frontend Dev Angular</h3>
+              </div>
+              <div class="skill-description">
+                <p>
+                  Over 5 years of development experience in HTML, CSS, JS,
+                  <span class="highlight">Angular</span> frameworks.
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/265431/server -->
+                  <svg
+                    fill="#000000"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 491.52 491.52"
+                    xml:space="preserve"
+                    stroke="#000000"
+                    stroke-width="0.0049152"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <g>
+                        <g>
+                          <polygon
+                            points="321.68,44.47 348.67,17.48 334.19,3 282.48,54.71 334.19,106.43 348.67,91.95 321.677,64.95 430.08,64.95 430.08,198.07 450.56,198.07 450.56,44.47 "
+                          ></polygon>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <polygon
+                            points="157.33,385.09 142.85,399.57 169.843,426.57 61.44,426.57 61.44,293.45 40.96,293.45 40.96,447.05 169.84,447.05 142.85,474.04 157.33,488.52 209.04,436.81 "
+                          ></polygon>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path
+                            d="M245.76,102.4V0H0v102.4h61.44v10.24H0v102.4h61.44v20.48H40.96V256H204.8v-20.48h-20.48v-20.48h61.44v-102.4h-61.44 V102.4H245.76z M163.84,235.52H81.92v-20.48h81.92V235.52z M225.28,133.12v61.44H20.48v-61.44H225.28z M81.92,112.64V102.4h81.92 v10.24H81.92z M20.48,81.92V20.48h204.8v61.44H20.48z"
+                          ></path>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="40.96"
+                            y="40.96"
+                            width="61.44"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="184.32"
+                            y="40.96"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="143.36"
+                            y="40.96"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="40.96"
+                            y="153.6"
+                            width="61.44"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="184.32"
+                            y="153.6"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="143.36"
+                            y="153.6"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path
+                            d="M491.52,337.92v-102.4H245.76v102.4h61.44v10.24h-61.44v102.4h61.44v20.48h-20.48v20.48h163.84v-20.48h-20.48v-20.48 h61.44v-102.4h-61.44v-10.24H491.52z M409.6,471.04h-81.92v-20.48h81.92V471.04z M471.04,368.64v61.44h-204.8v-61.44H471.04z M327.68,348.16v-10.24h81.92v10.24H327.68z M266.24,317.44V256h204.8v61.44H266.24z"
+                          ></path>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="286.72"
+                            y="276.48"
+                            width="61.44"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="430.08"
+                            y="276.48"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="389.12"
+                            y="276.48"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="286.72"
+                            y="389.12"
+                            width="61.44"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="430.08"
+                            y="389.12"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <rect
+                            x="389.12"
+                            y="389.12"
+                            width="20.48"
+                            height="20.48"
+                          ></rect>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="skill-title">
+                  Backend Dev 😅 NodeJS, ASP.Net, SQL, Mongo
+                </h3>
+              </div>
+              <div class="skill-description">
+                <p>
+                  While I don't find it very exciting I do have knowledge and
+                  <span class="highlight">hands on experience</span>.
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/455660/team-group -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    id="Layer_1"
+                    data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-miterlimit: 10;
+                            stroke-width: 1.2;
+                          }
+                        </style>
+                      </defs>
+                      <circle class="cls-1" cx="12" cy="3.41" r="1.91"></circle>
+                      <path
+                        class="cls-1"
+                        d="M9.14,8.18h0A2.86,2.86,0,0,1,12,5.32h0a2.86,2.86,0,0,1,2.86,2.86h0"
+                      ></path>
+                      <circle
+                        class="cls-1"
+                        cx="19.64"
+                        cy="14.86"
+                        r="1.91"
+                      ></circle>
+                      <path
+                        class="cls-1"
+                        d="M16.77,19.64h0a2.86,2.86,0,0,1,2.87-2.87h0a2.86,2.86,0,0,1,2.86,2.87h0"
+                      ></path>
+                      <circle
+                        class="cls-1"
+                        cx="4.36"
+                        cy="14.86"
+                        r="1.91"
+                      ></circle>
+                      <path
+                        class="cls-1"
+                        d="M1.5,19.64h0a2.86,2.86,0,0,1,2.86-2.87h0a2.86,2.86,0,0,1,2.87,2.87h0"
+                      ></path>
+                      <path
+                        class="cls-1"
+                        d="M2.47,11.37A9.53,9.53,0,0,1,7.38,3.65"
+                      ></path>
+                      <path
+                        class="cls-1"
+                        d="M16.62,3.65a9.53,9.53,0,0,1,4.91,7.72"
+                      ></path>
+                      <path
+                        class="cls-1"
+                        d="M8.39,21.79a9.53,9.53,0,0,0,7.22,0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+
+                <h3 class="skill-title">Team work</h3>
+              </div>
+
+              <div class="skill-description">
+                <p>
+                  Experienced in working as part of
+                  <span class="highlight">various sized teams</span> in a
+                  variety of <span class="highlight">team roles</span>.
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/423923/talk-chat-message -->
+                  <svg
+                    fill="#000000"
+                    viewBox="100 100 550 550"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#000000"
+                    stroke-width="0.0075"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M579.8,262.36c-21.01-32.85-48.56-64-85.08-79.51-32.92-12.22-68.82-11.21-103.17-6.92-39.92,2.23-81.66,11.38-112.66,38.1-53.03,42.04-48.65,113.26-55.59,173.89-20.93,9.38-42.49,17.32-63.79,25.81-10.09,4.59-25.96,7.34-25.87,21.24-18.27-4.44-22.04,19.75-7.52,22.85,34.11,.19,69.15,1.33,102.22,10.08,21.13,72.29,99.37,113.09,171.56,108.81,45.54-.22,89.96-12.38,130.81-32.13,45.07-18.37,92.37-49.83,100.9-101.32,6.26-63.99-13.86-129.39-51.83-180.91Zm-54.39,265.77c-33.32,16.79-70.99,13.21-107.1,13.32-66.37,1.53-131.34-.13-161.48-70.33-10.89-44.01-28.46-37.84-67.69-37.74,15.4-7.21,32.34-12.21,46.45-21.69,25.31-36.76-.71-90.24,18.6-130.64,15.33-33.81,54.09-49.05,86.23-62.89,37.19-16.36,79.01-18.5,117.9-7.07,35.38,7.28,70.39,21.58,96.32,47.39,40.07,39.08,52.35,98.14,52.59,152.31,5.12,52.58-37.73,95.8-81.82,117.34Z"
+                      ></path>
+                      <ellipse
+                        cx="372.82"
+                        cy="324"
+                        rx="10.69"
+                        ry="14.06"
+                      ></ellipse>
+                      <path
+                        d="M460.56,327.08c7.07,0,10.68-7.98,10.68-14.05s-3.6-14.05-10.68-14.05-10.68,7.98-10.68,14.05,3.6,14.05,10.68,14.05Z"
+                      ></path>
+                      <path
+                        d="M501.99,349.96c-8.15,.66-11.32,10.32-16.83,15.26-14.77,22.38-38.26,29.84-63.98,24.87-20.34-.31-34.45-9.62-49.34-22.17-13.37-6.45-19.58,15.06-11.5,23.35,13.79,19.12,36.75,28.05,59.83,28.23,21.31,2.17,43.99-.16,61.08-14.28,11.49-11.06,50.4-45.11,20.74-55.25Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="skill-title">Great Orator</h3>
+              </div>
+              <div class="skill-description">
+                <p>
+                  <span class="highlight">Communication</span> is important in
+                  any relationship, as it allows you to effectively share
+                  feelings, opinions and expectations.
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="skill">
+              <div class="skill-header-container">
+                <div class="icon-container">
+                  <!-- https://www.svgrepo.com/svg/392219/eye-find-view-vision-watch-alert -->
+                  <svg
+                    viewBox="0 0 20 20"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <g id="layer1">
+                        <path
+                          d="M 9.6269531 5.0039062 L 8.8789062 5.0488281 L 8.1367188 5.1386719 L 7.4003906 5.2714844 L 6.6757812 5.4511719 L 5.9609375 5.6699219 L 5.2617188 5.9316406 L 4.578125 6.2363281 L 3.9140625 6.5820312 L 3.2714844 6.9628906 L 2.6542969 7.3867188 L 2.0625 7.8417969 L 1.4980469 8.3339844 L 0.96679688 8.859375 L 0.46679688 9.4140625 L 0 9.9980469 L 0.46679688 10.583984 L 0.96679688 11.140625 L 1.4980469 11.664062 L 2.0625 12.15625 L 2.6542969 12.613281 L 3.2714844 13.033203 L 3.9140625 13.417969 L 4.578125 13.761719 L 5.2617188 14.066406 L 5.9609375 14.328125 L 6.6757812 14.548828 L 7.4003906 14.726562 L 8.1367188 14.861328 L 8.8789062 14.949219 L 9.6269531 14.992188 L 10.373047 14.992188 L 11.119141 14.949219 L 11.863281 14.861328 L 12.599609 14.726562 L 13.324219 14.548828 L 14.039062 14.328125 L 14.738281 14.066406 L 15.421875 13.761719 L 16.085938 13.417969 L 16.726562 13.033203 L 17.345703 12.613281 L 17.9375 12.15625 L 18.501953 11.664062 L 19.033203 11.140625 L 19.533203 10.583984 L 20 9.9980469 L 19.533203 9.4140625 L 19.033203 8.859375 L 18.501953 8.3339844 L 17.9375 7.8417969 L 17.345703 7.3867188 L 16.726562 6.9628906 L 16.085938 6.5820312 L 15.421875 6.2363281 L 14.738281 5.9316406 L 14.039062 5.6699219 L 13.324219 5.4511719 L 12.599609 5.2714844 L 11.863281 5.1386719 L 11.119141 5.0488281 L 10.373047 5.0039062 L 9.6269531 5.0039062 z M 9.8945312 6.0019531 L 10.318359 6.0117188 L 10.740234 6.0683594 L 11.154297 6.1699219 L 11.554688 6.3144531 L 11.939453 6.5019531 L 12.298828 6.7265625 L 12.634766 6.9882812 L 12.939453 7.2851562 L 13.210938 7.6132812 L 13.445312 7.96875 L 13.640625 8.3476562 L 13.796875 8.7441406 L 13.910156 9.1542969 L 13.978516 9.5742188 L 14.001953 9.9980469 L 13.978516 10.425781 L 13.910156 10.845703 L 13.796875 11.255859 L 13.640625 11.652344 L 13.445312 12.029297 L 13.210938 12.384766 L 12.939453 12.712891 L 12.634766 13.009766 L 12.298828 13.273438 L 11.939453 13.498047 L 11.554688 13.685547 L 11.154297 13.828125 L 10.740234 13.929688 L 10.318359 13.986328 L 9.8945312 13.998047 L 9.46875 13.964844 L 9.0507812 13.884766 L 8.6425781 13.763672 L 8.25 13.597656 L 7.8789062 13.390625 L 7.5292969 13.146484 L 7.2089844 12.865234 L 6.9199219 12.552734 L 6.6679688 12.210938 L 6.4511719 11.84375 L 6.2734375 11.455078 L 6.140625 11.052734 L 6.0507812 10.636719 L 6.0058594 10.212891 L 6.0058594 9.7871094 L 6.0507812 9.3632812 L 6.140625 8.9472656 L 6.2734375 8.5429688 L 6.4511719 8.15625 L 6.6679688 7.7871094 L 6.9199219 7.4472656 L 7.2089844 7.1347656 L 7.5292969 6.8515625 L 7.8789062 6.609375 L 8.25 6.4023438 L 8.6425781 6.2363281 L 9.0507812 6.1152344 L 9.46875 6.0351562 L 9.8945312 6.0019531 z M 6.3339844 6.5996094 L 6.0332031 6.9570312 L 5.765625 7.3398438 L 5.5371094 7.7480469 L 5.3457031 8.171875 L 5.1933594 8.6152344 L 5.0859375 9.0703125 L 5.0214844 9.5332031 L 5 9.9980469 L 5.0214844 10.464844 L 5.0859375 10.927734 L 5.1933594 11.384766 L 5.3457031 11.826172 L 5.5371094 12.251953 L 5.765625 12.660156 L 6.0332031 13.042969 L 6.3339844 13.400391 L 5.6914062 13.162109 L 5.0644531 12.886719 L 4.4570312 12.574219 L 3.8652344 12.226562 L 3.2988281 11.84375 L 2.7539062 11.427734 L 2.234375 10.982422 L 1.7421875 10.505859 L 1.28125 9.9980469 L 1.7421875 9.4941406 L 2.234375 9.0175781 L 2.7539062 8.5703125 L 3.2988281 8.1542969 L 3.8652344 7.7734375 L 4.4570312 7.4238281 L 5.0644531 7.1132812 L 5.6914062 6.8378906 L 6.3339844 6.5996094 z M 13.666016 6.5996094 L 14.308594 6.8378906 L 14.933594 7.1132812 L 15.542969 7.4238281 L 16.134766 7.7734375 L 16.701172 8.1542969 L 17.246094 8.5703125 L 17.765625 9.0175781 L 18.255859 9.4941406 L 18.71875 9.9980469 L 18.255859 10.505859 L 17.765625 10.982422 L 17.246094 11.427734 L 16.701172 11.84375 L 16.134766 12.226562 L 15.542969 12.574219 L 14.933594 12.886719 L 14.308594 13.162109 L 13.666016 13.400391 L 13.966797 13.042969 L 14.234375 12.660156 L 14.462891 12.251953 L 14.654297 11.826172 L 14.804688 11.384766 L 14.914062 10.927734 L 14.978516 10.464844 L 15 9.9980469 L 14.978516 9.5332031 L 14.914062 9.0703125 L 14.804688 8.6152344 L 14.654297 8.171875 L 14.462891 7.7480469 L 14.234375 7.3398438 L 13.966797 6.9570312 L 13.666016 6.5996094 z M 12.117188 8.2519531 L 11.978516 8.2871094 L 11.855469 8.3574219 L 11.757812 8.4609375 L 11.693359 8.5878906 L 11.666016 8.7265625 L 11.677734 8.8691406 L 11.730469 9.0019531 L 11.859375 9.2617188 L 11.945312 9.5390625 L 11.992188 9.8242188 L 11.996094 10.117188 L 11.957031 10.404297 L 11.880859 10.683594 L 11.759766 10.949219 L 11.605469 11.195312 L 11.414062 11.414062 L 11.195312 11.605469 L 10.949219 11.759766 L 10.683594 11.878906 L 10.404297 11.957031 L 10.117188 11.996094 L 9.8242188 11.992188 L 9.5390625 11.945312 L 9.2617188 11.859375 L 9 11.730469 L 8.8671875 11.677734 L 8.7246094 11.666016 L 8.5859375 11.693359 L 8.4609375 11.757812 L 8.3574219 11.855469 L 8.2851562 11.978516 L 8.2519531 12.117188 L 8.2578125 12.257812 L 8.3046875 12.392578 L 8.3886719 12.511719 L 8.5 12.597656 L 8.8339844 12.765625 L 9.1875 12.886719 L 9.5527344 12.966797 L 9.9257812 12.998047 L 10.298828 12.986328 L 10.667969 12.925781 L 11.027344 12.820312 L 11.369141 12.667969 L 11.689453 12.478516 L 11.984375 12.248047 L 12.25 11.986328 L 12.478516 11.689453 L 12.669922 11.367188 L 12.820312 11.025391 L 12.923828 10.667969 L 12.986328 10.296875 L 12.998047 9.9257812 L 12.966797 9.5527344 L 12.886719 9.1875 L 12.765625 8.8339844 L 12.599609 8.5 L 12.509766 8.3867188 L 12.394531 8.3046875 L 12.259766 8.2578125 L 12.117188 8.2519531 z "
+                          style="
+                            fill: #fff;
+                            fill-opacity: 1;
+                            stroke-width: 0.0002;
+                          "
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="skill-title">
+                  A very good eye when it comes to details
+                </h3>
+              </div>
+              <div class="skill-description">
+                <p>
+                  Passionate about <span class="highlight">UI/UX</span>. I
+                  believe that the beauty is in the details
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact"></section>
+
+      <section id="experience">
+        <div class="section-wrapper">
+          <h1 data-aos="zoom-in" class="title">Professional Experience</h1>
+          <div class="carousel">
+            <div class="container-fluid px-0">
+              <div class="carousel__wrapper">
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://htssgroup.eu/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_htss.png"
+                        alt="Logo High-Tech Systems & Software"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.frf.ro/cat/en/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_frf.png"
+                        alt="Logo Romanian Football Federation"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://softbinator.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_softbinator.png"
+                        alt="Logo Softbinator Technologies"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://cst.ro/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_cornerstone.png"
+                        alt="Logo Cornerstone Technologies"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://fitbit.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_fitbit.png"
+                        alt="Logo Fitbit"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.endava.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_endava.png"
+                        alt="Logo Endava"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://www.mindit.io/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_mindit.png"
+                        alt="Logo Mindit"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.tanacorp.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_tanacorp.png"
+                        alt="Logo Tana Corp"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://gekko-group.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_gekko.png"
+                        alt="Logo Gekko Group"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://group.accor.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_accor.png"
+                        alt="Logo Accor Group"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://htssgroup.eu/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_htss.png"
+                        alt="Logo High-Tech Systems & Software"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.frf.ro/cat/en/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_frf.png"
+                        alt="Logo Romanian Football Federation"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://softbinator.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_softbinator.png"
+                        alt="Logo Softbinator Technologies"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://cst.ro/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_cornerstone.png"
+                        alt="Logo Cornerstone Technologies"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://fitbit.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_fitbit.png"
+                        alt="Logo Fitbit"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.endava.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_endava.png"
+                        alt="Logo Endava"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://www.mindit.io/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_mindit.png"
+                        alt="Logo Mindit"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://www.tanacorp.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_tanacorp.png"
+                        alt="Logo Tana Corp"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="carousel__slide">
+                  <div class="carousel__image">
+                    <a href="https://gekko-group.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_gekko.png"
+                        alt="Logo Gekko Group"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel__image">
+                    <a href="https://group.accor.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_accor.png"
+                        alt="Logo Accor Group"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordions-container">
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Front End Developer @
+                    <span class="company"> Mindit</span>
+                  </div>
+                  <div class="period">2022 - Present</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Remote (Bucharest, Romania)
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://www.mindit.io/"
+                          target="_blank"
+                        >
+                          mindit.io</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      Developed an advanced white-label hotel distribution
+                      platform for
+                      <a
+                        class="company"
+                        href="https://gekko-group.com/"
+                        target="_blank"
+                        >Gekko Group</a
+                      >
+                      similar to booking.com in some aspects for the
+                      <a
+                        class="company"
+                        href="https://tickets.rugbyworldcup.com"
+                        target="_blank"
+                        >2023 Rugby World Cup</a
+                      >
+                      and the
+                      <a
+                        class="company"
+                        href="https://olympics.com/en/olympic-games/paris-2024"
+                        target="_blank"
+                        >2024 Olympic Games</a
+                      >, accessible to anyone who has bought tickets.
+                      <br />
+                      <br />
+                      The white label product also served as a starting point
+                      for developing a gray-label product that will be used by
+                      <a
+                        class="company"
+                        href="https://group.accor.com/"
+                        target="_blank"
+                        >Accor Group</a
+                      >
+                      in their integration with the
+                      <a
+                        class="company"
+                        href="https://www.sncf-connect.com"
+                        target="_blank"
+                        >National Society of French Railroads (SNCF)</a
+                      >.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>Angular</li>
+                      <li>NodeJS</li>
+                      <li>Strapi</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a href="https://www.mindit.io/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_mindit.png"
+                        alt="Logo Mindit"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Full Stack Web Developer @
+                    <span class="company"> Tana Corp</span>
+                  </div>
+                  <div class="period">2021 - 2022</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Remote (Lyon, France)
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://www.tanacorp.com/"
+                          target="_blank"
+                        >
+                          tanacorp.com</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      Worked on developing a developing framework for creating
+                      web apps just by writing configurations. The framework is
+                      capable of doing all the basic CRUD operations and generic
+                      actions that you would see in most apps in a very
+                      customizable way while also allowing the user to write his
+                      own custom functionality in case we don't have it covered
+                      already.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>Angular</li>
+                      <li>NodeJS</li>
+                      <li>NestJS</li>
+                      <li>MongoDB</li>
+                      <li>Nx</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a href="https://www.tanacorp.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_tanacorp.png"
+                        alt="Logo Tana Corp"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Freelance Web Developer
+                    <!--@-->
+                    <!-- <span class="company"> Endava</span> -->
+                  </div>
+                  <div class="period">2021 - Present</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Remote
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://www.upwork.com/freelancers/~01249d28efe8c2e7d3"
+                          target="_blank"
+                        >
+                          upwork.com</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      Worked with clients and developers from America, Europe,
+                      Asia and Africa on small jobs from time to time with a
+                      wide variety of technologies but mainly focused on the
+                      frontend part of the web. Some of these small jobs lead to
+                      long-term partnerships.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>Angular</li>
+                      <li>React Native</li>
+                      <li>NodeJS</li>
+                      <li>NestJS</li>
+                      <li>ASP.NET Core</li>
+                      <li>SQL</li>
+                      <li>NoSQL</li>
+                      <li>MongoDB</li>
+                      <li>Firebase</li>
+                      <li>AG Grid</li>
+                      <li>Strapi</li>
+                      <li>Nx</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a
+                      href="https://www.upwork.com/freelancers/~01249d28efe8c2e7d3"
+                      target="_blank"
+                    >
+                      <img
+                        src="../assets/employers/logo_upwork.png"
+                        alt="Logo Upwork"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Front End Developer @
+                    <span class="company"> Endava</span>
+                  </div>
+                  <div class="period">2021 - 2021</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Remote (Bucharest, Romania)
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://www.endava.com/"
+                          target="_blank"
+                        >
+                          endava.com</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      Worked on a project with the main focus on email data
+                      extraction and processing for
+                      <a href="https://www.citibank.com/" target="_blank"
+                        >Citibank</a
+                      >
+                      that helped Citi's employees fill in everyday forms that
+                      would usually take hours in a matter of minutes.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>Angular</li>
+                      <li>AG Grid</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a href="https://www.endava.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_endava.png"
+                        alt="Logo Endava"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Front End Developer @
+                    <span class="company"> Fitbit</span>
+                  </div>
+                  <div class="period">2019 - 2021</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Remote (Bucharest, Romania)
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://www.fitbit.com/"
+                          target="_blank"
+                        >
+                          fitbit.com</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      Worked on the main source of income for Fitbit, which is
+                      the
+                      <a
+                        class="company"
+                        href="https://www.fitbit.com/"
+                        target="_blank"
+                      >
+                        online store</a
+                      >, where I closely worked with senior developers and UI
+                      designers from Boston and San Francisco in order to
+                      execute tasks in a timely manner for new product launches
+                      and to manage and maintain the company's infrastructure
+                      for an improved user experience.
+                      <br />
+                      <br />
+                      Needless to say, everything needed to look flawless, so
+                      there was a big emphasis on CSS.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>MithrilJS</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a href="https://www.fitbit.com/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_fitbit.png"
+                        alt="Logo Fitbit"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion-header">
+                <div class="job-title">
+                  <div class="role">
+                    Full Stack Web Developer @
+                    <span class="company"> High-Tech Systems & Software</span>
+                  </div>
+                  <div class="period">2018 - 2019</div>
+                </div>
+              </button>
+              <div class="panel-wrapper">
+                <div class="panel">
+                  <div class="job-container">
+                    <div class="job-details">
+                      <div class="location">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/446718/map-pin -->
+                          <svg
+                            fill="#b7f"
+                            height="28px"
+                            width="28px"
+                            version="1.1"
+                            id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 50 50"
+                            enable-background="new 0 0 50 50"
+                            xml:space="preserve"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path
+                                d="M24.43,40.153c0.186,0.276,0.497,0.441,0.829,0.441h0c0.333,0,0.644-0.166,0.829-0.441l9.436-14.018 c1.128-1.799,1.725-3.865,1.725-5.976c0-6.376-5.383-11.564-12-11.564s-12,5.188-12,11.564c0,2.114,0.599,4.184,1.749,6.012 L24.43,40.153z M25.25,10.594c5.514,0,10,4.291,10,9.564c0,1.734-0.491,3.433-1.402,4.886l-8.59,12.76l-8.584-12.726 c-0.932-1.482-1.424-3.183-1.424-4.92C15.25,14.885,19.736,10.594,25.25,10.594z"
+                              ></path>
+                              <path
+                                d="M25.25,25.616c3.135,0,5.686-2.467,5.686-5.5s-2.55-5.5-5.686-5.5s-5.686,2.467-5.686,5.5S22.115,25.616,25.25,25.616z M25.25,16.616c2.032,0,3.686,1.57,3.686,3.5s-1.653,3.5-3.686,3.5s-3.686-1.57-3.686-3.5S23.218,16.616,25.25,16.616z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Bucharest, Romania
+                      </div>
+                      <div class="employer">
+                        <div class="icon">
+                          <!-- https://www.svgrepo.com/svg/511049/link -->
+                          <svg
+                            height="26px"
+                            width="26px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            stroke="#b7f"
+                          >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                              id="SVGRepo_tracerCarrier"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="Interface / Link">
+                                <path
+                                  id="Vector"
+                                  d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071"
+                                  stroke="#b7f"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <a
+                          class="company"
+                          href="https://htssgroup.eu/"
+                          target="_blank"
+                        >
+                          htssgroup.eu</a
+                        >
+                      </div>
+                    </div>
+                    <p class="job-description">
+                      We developed a data management web app for the company
+                      that had several modules, such as a Kanban board for task
+                      management (similar to Jira), a ticketing system where our
+                      clients could raise issues, a vacation request module, and
+                      many more.
+                      <br />
+                      <br />I also worked on the
+                      <a
+                        class="company"
+                        href="https://www.frf.ro/cat/en/"
+                        target="_blank"
+                        >Romanian Football Federation</a
+                      >
+                      app, which is used for sports clubs' data and document
+                      management and players' track records.
+                    </p>
+                    <ul class="job-skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>Angular</li>
+                      <li>ASP.NET Core</li>
+                      <li>SQL</li>
+                    </ul>
+                  </div>
+                  <div class="employer-logo-container">
+                    <a href="https://htssgroup.eu/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_htss.png"
+                        alt="Logo High-Tech Systems & Software"
+                      />
+                    </a>
+                    <!-- <a href="https://htssgroup.eu/" target="_blank">
+                      <img
+                        src="../assets/employers/logo_frf.png"
+                        alt="Logo High-Tech Systems & Software"
+                      />
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <div class="section-wrapper">
+          <div class="grid">
+            <div class="review review1">
+              <div class="image-wrapper">
+                <img src="../assets/avatars/avatar-01.jpg" alt="" />
+              </div>
+              <p>
+                Got the job done very quickly. Iulian did everything I asked and
+                was highly available and responsive. His work is of high
+                quality. Highly recommend!
+              </p>
+            </div>
+            <div class="review review2">
+              <p>
+                It was great working with Iulian. A good communication on the
+                requirements and the process lead to a good result at the end,
+                according to what we set and our expectations.
+              </p>
+            </div>
+            <div class="review review3">
+              <p>
+                Iulian is amazing, very patient, generous, and thoughtful as a
+                person; very accurate, creative, and professional in his work. I
+                recommend anyone to work with Iulian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>d</footer>
+
     <script src="script.js"></script>
   </body>
 </html>
